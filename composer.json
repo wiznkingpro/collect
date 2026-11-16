@@ -1,0 +1,23 @@
+{
+    "name": "wiznkingpro/collect",
+    "description": "Simple PHP collection library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Владислав Плотников",
+            "email": "gr436_plval@lab-402-5.tomtit-tomsk.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wiznkingpro\\Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
